@@ -110,7 +110,7 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 
 
 :: 4. Install ищцук packages
-IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
+IF EXIST "%DEPLOYMENT_TARGET%\bower.json" (
   echo "restoring bower packages"
 
   pushd "%DEPLOYMENT_TARGET%"
